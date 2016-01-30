@@ -25,6 +25,7 @@ class Main extends Phaser.State {
 		this.board = this.add.tilemap('board');
 		this.board.addTilesetImage('tiles', 'tiles');
 		this.baselayer = this.board.createLayer('boardLayer');
+		this.baselayer = this.board.createLayer('type');
 
 		this.numOfPlayers = 4;
 
