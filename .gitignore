@@ -4,3 +4,10 @@ build
 *.tmp
 
 .DS_Store
+.idea/.name
+.idea/GGJ16.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/modules.xml
