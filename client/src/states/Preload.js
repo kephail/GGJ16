@@ -16,6 +16,8 @@ class Preload extends Phaser.State {
     this.load.image('player02', 'assets/images/player02.png');
     this.load.image('player03', 'assets/images/player03.png');
     this.load.image('player04', 'assets/images/player04.png');
+
+    this.load.audio('bgMusic', ['assets/sound/bg-loop.ogg']);
   }
 
   create() {

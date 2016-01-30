@@ -3,6 +3,10 @@ import Player from '../objects/Player';
 class Main extends Phaser.State {
 
 	create() {
+		this.music = this.add.audio('bgMusic');
+		this.music.play();
+		this.music.loopFull(1);
+
 		this.board = this.add.tilemap('board');
 		this.board.addTilesetImage('tiles', 'tiles');
 		this.baselayer = this.board.createLayer('boardLayer');
