@@ -1,0 +1,18 @@
+*::before, *, *::after{
+  margin: 0;
+  padding: 0;
+}
+
+.viewport {
+  overflow: hidden;
+}
+
+canvas, video {
+  width: 100%;
+}
+
+.drawingBuffer{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+}
